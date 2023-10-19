@@ -49,4 +49,5 @@ return require('packer').startup(function(use)
     branch = 'master',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {'github/copilot.vim'}
 end)
