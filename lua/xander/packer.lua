@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
   }
   use ('nvim-tree/nvim-tree.lua')
   use ('nvim-tree/nvim-web-devicons')
-  use ('rstacruz/vim-closer')
+  use 'm4xshen/autoclose.nvim'
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {
     'andymass/vim-matchup',
@@ -50,4 +50,6 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use {'github/copilot.vim'}
+  use {'mfussenegger/nvim-lint'}
+  use { 'mhartington/formatter.nvim' }
 end)

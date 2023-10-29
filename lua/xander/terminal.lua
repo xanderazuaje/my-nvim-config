@@ -28,6 +28,5 @@ vim.api.nvim_set_keymap('n', '<A-t>', ':lua TermToggle()<CR>', { noremap = true,
 vim.api.nvim_set_keymap('i', '<A-t>', '<Esc>:lua TermToggle()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('t', '<A-t>', '<C-\\><C-n>:lua TermToggle(12)<CR>', { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true })
 vim.api.nvim_set_keymap('t', ':q!', '<C-\\><C-n>:q!<CR>', { noremap = true })
 
